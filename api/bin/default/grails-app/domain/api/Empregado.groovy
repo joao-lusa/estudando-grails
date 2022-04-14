@@ -2,9 +2,8 @@ package api
 
 class Empregado {
 
-    String nome
-    String sobrenome
-
+    string nome
+    string sobrenome
     static belongsTo = [departamento: Departamento]
 
     static constraints = {

@@ -1,4 +1,4 @@
-package api
+package .
 
 import grails.validation.ValidationException
 import static org.springframework.http.HttpStatus.*
@@ -62,6 +62,7 @@ class DepartamentoController {
         render status: NO_CONTENT
     }
 }
+package api
 
 import grails.gorm.services.Service
 

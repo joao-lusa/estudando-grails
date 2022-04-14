@@ -1,7 +1,5 @@
 package api
 
-import grails.validation.ValidationException
-
 class EmpregadoController {
 
     EmpregadoService empregadoService
